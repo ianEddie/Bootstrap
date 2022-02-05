@@ -1,0 +1,116 @@
+body {
+    /* background-image: url(https://images.unsplash.com/photo-1618556658017-fd9c732d1360?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80); */
+    background-repeat: no-repeat;
+    background-image: url(../images/33.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment:fixed;
+    height: 150vh;
+
+
+}
+/* GRID */
+
+.gridcontainer{
+    display: grid;
+    grid-template-areas: "menu "
+    "section"
+    "footer";
+}
+
+
+/* menu */
+.menu{
+    width: 100%;
+    
+    grid-area: menu;
+}
+ .nav{
+     display: flex;
+     justify-content: center;
+ }
+
+ .menu ul li a{
+     color: cornsilk;
+ }
+/* section */
+
+.section{
+    grid-area: section;
+    font-family: 'Lora', serif;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 25%;
+
+    
+}
+
+
+
+
+
+/* FOOTER */
+.footer{
+    grid-area: footer;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+body {
+    background-color: #f3f6fd;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(189, 196, 203)
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0
+}
+
+ul>li {
+    padding: 4px;
+    color: #C5CAE9
+}
+
+ul>li:hover {
+    color: #957bda;
+    cursor: pointer
+}
+
+hr {
+    border-width: 3px
+}
+
+.card {
+    padding: 2% 7%
+}
+
+.social>i {
+    padding: 1%;
+    font-size: 15px
+}
+
+.social>i:hover {
+    color: #957bda;
+    cursor: pointer
+}
+
+.policy>div {
+    padding: 4px
+}
+
+.heading {
+    font-family: 'Titillium Web', sans-serif;
+    color: black
+}
+
+.divider {
+    border-top: 2px solid
+}
+/* footer */
