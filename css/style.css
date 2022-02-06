@@ -4,59 +4,50 @@ body {
     background-image: url(../images/33.jpg);
     background-position: center center;
     background-size: cover;
-    background-attachment:fixed;
+    background-attachment: fixed;
     height: 150vh;
-
-
 }
+
 /* GRID */
 
-.gridcontainer{
+.gridcontainer {
     display: grid;
     grid-template-areas: "menu "
-    "section"
-    "footer";
+        "section"
+        "footer";
 }
-
 
 /* menu */
-.menu{
+.menu {
     width: 100%;
-    
+
     grid-area: menu;
 }
- .nav{
-     display: flex;
-     justify-content: center;
- }
 
- .menu ul li a{
-     color: cornsilk;
- }
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li a {
+    color: cornsilk;
+}
+
 /* section */
 
-.section{
+.section {
     grid-area: section;
     font-family: 'Lora', serif;
     color: whitesmoke;
     text-align: center;
     margin-top: 20%;
     margin-bottom: 25%;
-
-    
 }
-
-
-
-
 
 /* FOOTER */
-.footer{
+.footer {
     grid-area: footer;
 }
-
-
-
 
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
 
@@ -113,65 +104,64 @@ hr {
 .divider {
     border-top: 2px solid
 }
+
 /* footer */
 
-/* #1 style */
+/* PRODUCTS style */
 
 /* GRID CONTAINER*/
 
-.gridcontainer1{
+.gridcontainer1 {
     height: 100vh;
     display: grid;
     grid-template-areas: "menu "
-    "carrusel"
-    "cards"
-    "footer";
-  
+        "carrusel"
+        "cards"
+        "footer";
 }
+
 /* fin GRID CONTAINER*/
 
 /* GRID ITEMS */
 
-.carrusel{
+.carrusel {
     grid-area: carrusel;
-    /* background-color: aqua; */
+
 }
 
-.menu1{
+.menu1 {
     grid-area: menu;
 }
 
-.menu1 ul li a{
+.menu1 ul li a {
     color: cornsilk;
 }
-.footer1{
+
+.footer1 {
     grid-area: footer;
- 
 }
 
-.card-group{
+.card-group {
 
     grid-area: cards;
- gap: 30px;
+    gap: 30px;
     padding: 75px;
- 
-
 }
 
 .card img {
     width: 100%;
     height: 250px;
 }
-.card{
+
+.card {
     background-image: url(../images/f1.jpg);
     color: gray;
     padding: 15px;
-   
-  
-   
 }
 
-    
+/* fin GRID ITEMS */
+
+
 
 
 
